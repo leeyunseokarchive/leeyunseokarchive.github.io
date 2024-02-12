@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="Leeyunseok Archive" content="Leeyunseok Archive MainPage">
+  <title>Leeyunseok Archive</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="nav">
+    <A href="https://dbstjr3576.github.io/leeyunseokarchive/">Leeyunseok Archive </A>
+    <div class="nav-items">
+      <div class="nav-item">Instargram</div>
+      <div class="nav-item">
+        <A href="https://www.instagram.com/oskueny/">@oskueny </A>
+      </div>
+    </div>
+  </div>
+  <div class="name">
+    <A href="https://dbstjr3576.github.io/leeyunseokarchive/">Leeyunseok Archive </A>
+  </div>
+
+  <div class="description">
+    This page is Leeyunseok's Archiving Page.
+  </div>
+
+  <div class="image">
+    <img src="images/jerry.gif" loop=infinite>
+  </div>
+
+  <div class="Menu">
+    <div class="smallTitle">
+      · Menu ·
+    </div>
+    <button class="toDoListButton" onclick="location.href='toDoListPage.html'"></button>
+    <button class="memoButton" onclick="location.href='memo.html'"></button>
+  </div>
+
+  <div class="music">
+    <div class="smallTitle">
+      · Music ·
+    </div>
+    <audio preload="auto" id='audio1' src='audios/Bad.mp3'>
+    </audio>
+    <audio preload="auto" id='audio2' src='audios/Cheapest Flight.mp3'>
+    </audio>
+    <audio preload="auto" id='audio3' src='audios/Difference.mp3'>
+    </audio>
+    <audio preload="auto" id='audio4' src='audios/Nouvelle vague.mp3'>
+    </audio>
+    <audio preload="auto" id='audio5' src='audios/Photograph.mp3'>
+    </audio>
+    <audio preload="auto" id='audio6' src='audios/Pueblo.mp3'>
+    </audio>
+    <audio preload="auto" id='audio7' src='audios/Seasons.mp3'>
+    </audio>
+    <div class="musicBox">
+      <div class="musicButton">
+        <button onclick="play(audio1); toggleBackgroundColor('#FCEDDA');"></button>
+      </div>
+      <div class="musicIndex">
+        <b>Bad</b>
+        <br>wave to earth
+      </div>
+    </div>
+
+    <div class="musicBox">
+      <div class="musicButton">
+        <button onclick="play(audio2); toggleBackgroundColor('#CCF381');"></button>
+      </div>
+      <div class="musicIndex">
+        <b>Cheapest Flight</b>
+        <br>PREP
+      </div>
+    </div>
+
+    <div class="musicBox">
+      <div class="musicButton">
+        <button onclick="play(audio3); toggleBackgroundColor('#F7C5CC');"></button>
+      </div>
+      <div class="musicIndex">
+        <b>Difference</b>
+        <br>dasutt
+      </div>
+    </div>
+
+    <div class="musicBox">
+      <div class="musicButton">
+        <button onclick="play(audio4); toggleBackgroundColor('#B85042');"></button>
+      </div>
+      <div class="musicIndex">
+        <b>Nouvelle vague</b>
+        <br>wave to earth
+      </div>
+    </div>
+
+    <div class="musicBox">
+      <div class="musicButton">
+        <button onclick="play(audio5); toggleBackgroundColor('#DDC3A5');"></button>
+      </div>
+      <div class="musicIndex">
+        <b>Photograph</b>
+        <br>wave to earth
+      </div>
+    </div>
+
+    <div class="musicBox">
+      <div class="musicButton">
+        <button onclick="play(audio6); toggleBackgroundColor('#A7BEAE');"></button>
+      </div>
+      <div class="musicIndex">
+        <b>Pueblo</b>
+        <br>wave to earth
+      </div>
+    </div>
+
+    <div class="musicBox">
+      <div class="musicButton">
+        <button onclick="play(audio7); toggleBackgroundColor('#6883BC');"></button>
+      </div>
+      <div class="musicIndex">
+        <b>Seasons</b>
+        <br>wave to earth
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
