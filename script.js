@@ -98,9 +98,6 @@ function toggleBackgroundColor(targetColor) {
     else if (curIndex == 4) {
       location.href = 'https://on.soundcloud.com/xKKVA'; // sound cloud
     }
-    else if (curIndex == 5) {
-      location.href = 'https://www.youtube.com/@lbs_studio'; // youtube
-    }
 
   });
 
