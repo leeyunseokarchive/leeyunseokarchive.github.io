@@ -37,8 +37,58 @@
     <div class="smallTitle">
       · Menu ·
     </div>
-    <button class="toDoListButton" onclick="location.href='toDoListPage.html'"></button>
-    <button class="memoButton" onclick="location.href='memo.html'"></button>
+
+    <div class="container">
+      <button class="prevButton">◀</button>
+      <div class="innerContainer">
+        <button class="menuButton"></button>
+        <div class="slide_wrap">
+          <div class="slide_box">
+            <div class="slide_list clearfix">
+              <div class="slide_content slide00">
+                <p>
+                  <b>To Do List</b>
+                  <br>And Memo
+                </p>
+              </div>
+              <div class="slide_content slide01">
+                <p>
+                  <b>oskueny</b>
+                  <br>Instagram
+                </p>
+              </div>
+              <div class="slide_content slide02">
+                <p>
+                  <b>203®</b>
+                  <br>Online Store
+                </p>
+              </div>
+              <div class="slide_content slide03">
+                <p>
+                  <b>leeyunseokarchive</b>
+                  <br>Github
+                </p>
+              </div>
+              <div class="slide_content slide04">
+                <p>
+                  <b>이백삼</b>
+                  <br>Sound Cloud
+                </p>
+              </div>
+              <div class="slide_content slide05">
+                <p>
+                  <b>leeyunseokarchive</b>
+                  <br>Youtube
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="nextButton">▶</button>
+      <ul class="slide_pagination"></ul>
+    </div>
+
   </div>
 
   <div class="music">
@@ -58,6 +108,10 @@
     <audio preload="auto" id='audio6' src='audios/Pueblo.mp3'>
     </audio>
     <audio preload="auto" id='audio7' src='audios/Seasons.mp3'>
+    </audio>
+    <audio preload="auto" id='audio8' src='audios/Misty.mp3'>
+    </audio>
+    <audio preload="auto" id='audio9' src='audios/Blue room.mp3'>
     </audio>
     <div class="musicBox">
       <div class="musicButton">
@@ -126,6 +180,26 @@
       <div class="musicIndex">
         <b>Seasons</b>
         <br>wave to earth
+      </div>
+    </div>
+
+    <div class="musicBox">
+      <div class="musicButton">
+        <button onclick="play(audio8); toggleBackgroundColor('#CCCCFF');"></button>
+      </div>
+      <div class="musicIndex">
+        <b>Misty</b>
+        <br>Ella Fitzgerald
+      </div>
+    </div>
+
+    <div class="musicBox">
+      <div class="musicButton">
+        <button onclick="play(audio9); toggleBackgroundColor('#9FA8DA');"></button>
+      </div>
+      <div class="musicIndex">
+        <b>Blue Room</b>
+        <br>Chet Baker
       </div>
     </div>
 
