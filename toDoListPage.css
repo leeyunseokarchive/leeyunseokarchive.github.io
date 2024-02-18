@@ -55,29 +55,31 @@ body {
 
 body {
   font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
 }
 
 .pageMoveButton {
   text-align: center;
 }
 
-button.mainPageButton {
+button {
   border: 10;
-  outline: none;
+  outline: 0;
+
   width: 50px;
   height: 50px;
-  border-radius: 100px;
-  font-size: 10px;
+
+  border-radius: 50%;
   margin: 20px;
   transition: 0.3s;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
-button.mainPageButton:hover {
+button:hover {
   background: black;
-}
-
-.toDoList {
-  text-align: center;
 }
 
 .smallTitle {
