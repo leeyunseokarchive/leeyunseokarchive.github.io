@@ -90,7 +90,7 @@ function toggleBackgroundColor(targetColor) {
       location.href = 'https://www.instagram.com/oskueny/'; // instagram
     }
     else if (curIndex == 2) {
-      location.href = 'https://github.com/leeyunseokarchive/203'; // 203 online store
+      location.href = 'https://leeyunseokarchive.github.io/203/'; // 203 online store
     }
     else if (curIndex == 3) {
       location.href = 'https://github.com/leeyunseokarchive'; // github
